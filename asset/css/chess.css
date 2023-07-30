@@ -1,0 +1,95 @@
+body{
+	margin:0px;
+	padding: 0px;
+	background-color:#EDEDEE;
+}
+/*CSS Div Main*/
+#divMain{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+/*CSS Div ThongTin*/
+#divNguoiChoiCoDen{
+	float:left;
+	width: 25%;
+	height:100%;
+}
+#tblNguoiCoDen {
+ 	width : 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 140%;
+}
+
+#iCoDo, #iCoDen {
+	height: 100px;
+	width: 100px;
+}
+
+#tblNguoiChoiCoDo{
+   	width : 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tblNguoiCoDen td, #tblNguoiChoiCoDo td{
+	margin:auto;
+	text-align:center;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight:lighter;
+	font-size:40px;
+	min-height: 100%;
+}
+
+/*CSS Div Ban co*/
+#divBanCo{
+	padding-top: 5px;
+	float:left;
+	width: 50%;
+	height: 100%;
+}
+/*CSS Div ChoiLai*/
+#divNguoiChoiCoDo{
+	float: left;
+	width: 25%;
+	height:100%;
+}
+#PointCoDen {
+	
+}
+
+#PointCoDo {
+	color:#FF0004;
+}
+
+
+/*<!--CSS Table ban co-->*/
+#BanCo{
+	margin:auto;
+	height: 600px;
+	width: 600px;
+}
+
+#BanCo td {
+	height: 70px;
+	width: 70px;
+	border-style:solid;
+	border-color: #AAB69B;
+	border-collapse:collapse;
+	border-width: 2px;
+}
+
+#BanCo td:hover {
+  border-width: 2px;
+  border-collapse: collapse;
+  border-style: solid;
+  border-color: #1BA39C;
+}
+
+img{
+	display: block;
+    margin: 0 auto;
+}
